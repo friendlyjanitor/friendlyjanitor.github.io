@@ -10,7 +10,7 @@
 */
 body {
 	margin: 0px;
-	padding-bottom:117px;
+	padding-top:117px;
 	}
 
 .header {
@@ -19,7 +19,9 @@ body {
     width: 100%;
     height: 117;
     background-color: lightgrey;
-	
+    top:0;
+	left:0;
+	right:0;
 	position: fixed; /*makes this area stick on scroll */
 	}
 .main_img {
