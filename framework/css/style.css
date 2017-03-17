@@ -11,24 +11,7 @@
 
 
 
-.main_img {
-	display: block;
-	
-}
 
-
-	
-.head_icons {
-	direction: rtl;
-	width: 16.666%;
-	height: 32px;
-
-	
-	}
-	
-.main_img {
-	width: 100%;
-}
 
 .nav-icon {
 	float: right;
@@ -36,14 +19,3 @@
 	
 }
 
-}
-
-
-
-	
-div > img {
-  width: auto;
-  height : auto;
-  max-height: 100%;
-  max-width: 100%;
-}
