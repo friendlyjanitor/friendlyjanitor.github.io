@@ -3640,6 +3640,7 @@ tbody.collapse.in {
   .navbar-right .dropdown-menu-left {
     right: auto;
     left: 0;
+
   }
 }
 .btn-group,
@@ -4486,7 +4487,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: -15px;
+    margin-right: 15px;
+
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -4959,6 +4961,7 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
+  margin-top:100px;
   color: inherit;
   background-color: #eee;
 }
