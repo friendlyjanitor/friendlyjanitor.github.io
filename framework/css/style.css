@@ -11,14 +11,31 @@
 
 .nav-social > li {
    list-style-type: none;
+   float: right;
+   padding-left: 10px;
 }
 
 .nav-social > li > a {
    list-style-type: none;
   background-color: #f5f5f5;
   color: #777;
+
 }
 
+.nav-social {
+   display: inline;
+}
+
+@media (max-width: 768px) {
+   /* handling the mobile view for the social icons */
+  .nav-social > li{
+    list-style-type: none;
+    color: #777;
+    padding-right:10px;
+    padding-left:0px;
+    float:left;
+  }
+}
 
 body {
   /* Margin bottom by footer height */
@@ -42,6 +59,8 @@ body {
   height: 60px;
   background-color: #f5f5f5;
 }
+
+
 
 
 
