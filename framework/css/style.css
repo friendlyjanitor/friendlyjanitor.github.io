@@ -8,6 +8,17 @@
 
 */
 
+html {
+   position: relative;
+   min-height: 100%;
+}
+
+
+body {
+  margin-bottom: 60px;
+}
+
+
 
 .nav-social > li {
    list-style-type: none;
@@ -37,27 +48,30 @@
   }
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
 
-.aboutme {
+.about {
    padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  margin-top:100px;
+  margin-top:50px;
   color: inherit;
   background-color: #eee;
 }
 
+
+#About {
+   margin-bottom: 20px;
+}
+
+
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #f5f5f5;
+  margin-top: 0em;
+ 
 }
 
 
