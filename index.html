@@ -14,8 +14,9 @@
 <body>
 
  <!-- Nav Bar -->
-   <section class ="nav">
-		<nav class="navbar navbar-default navbar-fixed-top">
+ 
+   
+		<nav class="navbar navbar-inverse navbar-fixed-top">
         	<div class="container-fluid">
           		<div class="navbar-header">
           			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -30,6 +31,7 @@
             	<ul class="nav navbar-nav">
              	 	<li><a data-toggle="collapse" data-target="#navbar" class="nav-li" href="#">Home</a></li>
              	 	<li><a data-toggle="collapse" data-target="#navbar" class="nav-li" href="#About">About Me</a></li>
+             	 	<li><a data-toggle="collapse" data-target="#navbar" class="nav-li" href="#">Projects</a></li>
               		<li><a data-toggle="collapse" data-target="#navbar" class="nav-li" href="#">Contact</a></li>
              	</ul> 
              	<ul class="nav-social navbar-right">
@@ -39,41 +41,48 @@
           	</div>
          </div>
        </nav>
-    </section>
+    
 
-    <section class="aboutme">
+    
      <div class="container">
-      
+      <!-- welcome-->
       <div class="jumbotron">
-        <h1> Intro to Site</h1>
+        <h1>Welcome!</h1>
         <p>This website is created utilizing bootstrap, I am not showing off my skills as a developer but my knowledge of how to use these tools</p>
         
       </div>
      
-     <div id="About">
-     	<div class="about" >
-     	<p> this is about me blah blah blah </p>
-     	</div>
+     <div id="About" class="about" >
      </div>
-     </section>
+   
+</div>
 
 
-     <section class ="contact">
-     </section>
-
-      <div class = "footer">
-      <div class="container">
-      <p> this is my footer </p>
+	<!--footer -->
+      <div class = "footer container-fluid">
+      <div>
+      <p>This website was created using GitHub and <a href ="https://www.getbootstrap.com">Twitter Bootstrap</a>  </p>
       </div>
       </div>
       
+
+
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/friendlyportfolio.js"></script>
+
+       <script>
+    if(document.getElementsByTagName('h2').length === 0) {
+      document.getElementById('About').style.display = 'none';
+  }
+   </script>
+
+
+
     </body>
     </html>
-      
+
 
     
