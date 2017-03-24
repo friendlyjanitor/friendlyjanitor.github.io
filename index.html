@@ -32,7 +32,7 @@
              	 	<li><a class="nav-li" href="#">Home</a></li>
              	 	<li><a class="nav-li" href="#About">About Me</a></li>
              	 	<li><a class="nav-li" href="#">Projects</a></li>
-              	<li><a class="nav-li" href="#">Contact</a></li>
+              	<li><a class="nav-li" href="#contactme">Contact</a></li>
              	</ul> 
              	<ul class="nav-social navbar-right">
               		<li><a href="https://www.github.com/friendlyjanitor"><h3 class="icon-social-github"></h3></a></li>
@@ -46,22 +46,25 @@
     
      <div class="container">
       <!-- welcome-->
-      <div class="jumbotron">
-        <h1>Welcome!</h1>
-        <p>This website is created utilizing bootstrap, I am not showing off my skills as a developer but my knowledge of how to use these tools</p>
-        
-      </div>
+      
      
      <div id="About" class="about" >
+     <h1>Welcome!</h1>
+     <p> My Name is Ryan Cross and welcome to my website. I created this website to practice my skills and increase my knowledge website of development. I am a Quailty Assurance Analyst and I believe that if you are going to test something to its fullist you need to understand how it is built first. </p>
      </div>
-     	<div class = "contact">
-     		<form method="POST" action="http://formspree.io/cross.w.ryan@gmail.com">
- 				 <input type="email" name="email" placeholder="Your email">
- 				 <textarea name="message" placeholder="Your message"></textarea>
- 				 <button type="submit">Send</button>
+
+     
+     	<div id="contactme" class = "contact container">
+        <h3 class = "col-xs-offset-4 col-md-4 col-xs-6" >Contact Me</h3>
+     		<form class = "col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12"  method="POST" action="http://formspree.io/cross.w.ryan@gmail.com">
+          <input class = "col-xs-offset-4 col-md-4 col-xs-6" type="name" name = "name" placeholder = "Your name">
+ 				   <input class = "col-xs-6 col-xs-offset-4 col-md-4" type="email" name="email" placeholder="Your email">
+ 				   <textarea class = "col-xs-6 col-xs-offset-4 col-md-4" name="message" placeholder="Your message"></textarea>
+ 				   <button class = "col-xs-6 col-xs-offset-4 col-md-4" type="submit">Send</button>
 			</form>
+
    
-		</div>
+    </div> 
 </div>
 
 	<!--footer -->
@@ -80,7 +83,7 @@
     <script src="js/friendlyportfolio.js"></script>
 
        <script>
-    if(document.getElementsByTagName('h2').length === 0) {
+    if(document.getElementsByTagName('p').length === 0) {
       document.getElementById('About').style.display = 'none';
   }
    </script>
