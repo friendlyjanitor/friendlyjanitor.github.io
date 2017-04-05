@@ -7,12 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="framework/css/style.css">
 	<link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="https://fast.appcues.com/v3/container.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.1/css/simple-line-icons.css">
-	
+
 	<title>Ryan Cross - Website</title>
 </head>
 <body>
+<script src="//fast.appcues.com/24212.js"></script>
+<script>
+    // NOTE: These values should be specific to the current user.
+    Appcues.identify("12345", { // Unique identifier for current user
+        name: "John Doe", // Current user's name
+        email: "john.doe@example.com", // Current user's email
+        created_at: 1234567890, // Unix timestamp of user signup date
 
+        // Additional user properties.
+        // is_trial: false,
+        // plan: "enterprise"
+    });
+</script>
  <!-- Nav Bar -->
  
    
@@ -54,16 +67,17 @@
      </div>
 
      
-     	<div id="contactme" class = "contact container">
-        <h3 class = "col-sm-offset-3 col-md-4 col-xs-6" >Contact Me</h3>
+     	<div id="contactme" class = "contact">
+        <h3 class = "col-sm-offset-4 col-md-4 col-xs-12" >Contact Me</h3>
      		<form class = "col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12"  method="POST" action="http://formspree.io/cross.w.ryan@gmail.com">
-          <input class = "col-sm-offset-3 col-sm-6 col-xs-12" type="name" name = "name" placeholder = "Your name">
- 				   <input class = "col-xs-12 col-sm-offset-3 col-sm-6" type="email" name="email" placeholder="Your email">
- 				   <textarea class = "col-xs-12 col-sm-offset-3 col-sm-6" name="message" placeholder="Your message"></textarea>
- 				   <button class = "col-xs-12 col-sm-offset-3 col-sm-6" type="submit">Send</button>
+          <div class = "formgroup">
+          <label>Test</label><input class = "col-sm-offset-4 col-md-4 col-sm-6 col-xs-12" type="name" name = "name" placeholder = "Your name">
+          </div>
+ 				   <input class = "col-xs-12 col-sm-offset-4 col-md-4 col-sm-6" type="email" name="email" placeholder="Your email">
+ 				   <textarea class = "col-xs-12 col-sm-offset-4 col-md-4 col-sm-6" name="message" placeholder="Your message"></textarea>
+ 				   <button class = "col-xs-12 col-sm-offset-4 col-md-4 col-sm-6" type="submit">Send</button>
 			</form>
-
-   
+      
     </div> 
 </div>
 

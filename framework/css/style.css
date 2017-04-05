@@ -72,11 +72,22 @@ html {
   background-color: #eee;
   padding-top: 10px;
   padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.contact h3 {
+  padding-left: 0px;
 }
 .contact input{
   margin-bottom: 10px;
+}
 
-} 
+.formgroup {
+  display: inline;
+
+}
+
+
 
 .contact textarea{
   margin-bottom: 10px;
